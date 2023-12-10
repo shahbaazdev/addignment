@@ -55,7 +55,7 @@ export const JobCard = ({
             ) : (
               <Button
                 label="External Apply"
-                className="w-36 p-5 mt-3 !bg-white border-primary"
+                className="w-36 p-5 mt-3 !bg-white !text-primary border-primary"
                 lableStyles="text-primary"
               />
             )}
