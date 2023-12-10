@@ -36,7 +36,12 @@ export const Home = () => {
   return (
     <>
       <Header>
-        <Button className="w-24 p-6" label="Add Job" onClick={addJobs} />
+        <Button
+          className="w-24 p-6"
+          lableStyles="text-white"
+          label="Add Job"
+          onClick={addJobs}
+        />
       </Header>
       {jobs?.length > 0 ? (
         <JobsList jobs={jobs ?? []} onDelete={onDelete} onEdit={onEdit} />

@@ -51,12 +51,16 @@ export const JobCard = ({
             </p>
             <p className="text-xs">{totalExperience} employees</p>
             {applyType === ApplyType.quick ? (
-              <Button label="Apply Now" className="w-36 p-5 mt-3" />
+              <Button
+                label="Apply Now"
+                lableStyles="text-white"
+                className="w-36 p-5 mt-3"
+              />
             ) : (
               <Button
                 label="External Apply"
-                className="w-36 p-5 mt-3 !bg-white !text-primary border-primary"
-                lableStyles="text-primary"
+                className="w-36 p-5 mt-3 !bg-white border-primary"
+                lableStyles="!text-primary"
               />
             )}
           </div>

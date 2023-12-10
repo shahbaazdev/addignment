@@ -190,6 +190,7 @@ export const CreateJob = ({
               className="p-6"
               disabled={apiLoading}
               loading={apiLoading}
+              lableStyles="text-white"
             />
           </div>
         </Form>

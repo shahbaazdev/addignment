@@ -24,7 +24,7 @@ export const Button = ({
       hover:opacity-60 hover:transition-all ${className}`}
     >
       {icon && <PlusOutlined />}
-      <div className={`text-xs text-white ${lableStyles}`}>{label}</div>
+      <div className={`text-xs ${lableStyles}`}>{label}</div>
     </AndButton>
   );
 };
